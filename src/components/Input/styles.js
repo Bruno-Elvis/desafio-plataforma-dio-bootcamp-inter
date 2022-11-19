@@ -9,11 +9,14 @@ export const InputContainer = styled.div`
     display:flex;
     align-items: center;
     margin-bottom: 20px;
-`
+
+`;
 
 export const IconContainer = styled.div`
     margin-right: 10px;
-`
+    color: #955eb7;
+
+`;
 
 export const InputText = styled.input`
     background-color: transparent;
@@ -21,5 +24,9 @@ export const InputText = styled.input`
     flex:1;
     border: 0;
     height: 30px;
+
+    ::placeholder {
+        color: white;
+    }
     
-`
+`;
